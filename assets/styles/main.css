@@ -1,0 +1,45 @@
+body{
+    background-color: khaki;
+}
+
+h1{
+    color: coral;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    color: brown;
+}
+h3{
+    color: darksalmon;
+}
+p{
+    color: darkslategrey;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    background-color: aqua;
+    margin-right: 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: burlywood;
+}
+hr{
+    border: 1px solid black;
+}
+
+.heading{
+    color: chartreuse;
+}
+.first para{
+    color: aquamarine;
+}
+.second head{
+    color: blueviolet;
+}
+.carousel-inner img{
+    height: 90vh;
+}

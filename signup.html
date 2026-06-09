@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            background-color: peru;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+        }
+        .form-container{
+            width: 350px;
+            background-color: bisque;
+            padding: 25px;
+        }
+        .form-group{
+            margin-bottom: 15px 20px;
+            border-radius: 15px;
+
+        }
+        label{
+            background-color: brown;
+            border-radius: 15px;
+        }
+        button{
+            background-color: bisque;
+            border-radius: 15px;
+        }
+        input{
+            background-color: gold;
+            border-color: black;
+            border-radius: 15px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="form-container">
+        <h2 style="text-align: center; margin-bottom: 20px;">Registration Form</h2>
+    <form action="">
+        <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form-group">
+        <label for="">email</label>
+        <input type="Email" placeholder="Enter Your email" required>
+        </div>
+        <div class="form-group">
+        <label for="">Password</label>
+        <input type="password" placeholder="Enter Your password" required>
+        </div>
+        <div class="form-group">
+
+        <label for="">Gender</label>
+        <select name="gender" id="gender">
+            <option value="">female</option>
+            <option value="">male</option>
+        </select>
+        </div>
+        <button>register</button>
+    </form>
+    </div>
+</body>
+</html>

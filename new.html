@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: transparent;
+            position: absolute;
+            width: 90%;
+            z-index: 10;
+            top: 0;
+        }
+        nav ul{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+            gap: 20px;
+        }
+        nav ul li{
+            display: inline; 
+            margin-top: 0px;  
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: azure;
+        }
+        nav ul li a:hover{
+            color: chocolate;
+        }
+        .hero{
+            height: 800px;
+            background-image: url('https://images.pexels.com/photos/13872660/pexels-photo-13872660.jpeg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+        }
+        .hero text{
+            text-align: center;
+            margin: 0;
+        }
+        h4{
+            font-size: xx-large;
+            font-family: cursive;
+            font-style: oblique;
+            color: beige;
+        }
+        .first{
+            font-weight: bold;
+            color: beige;
+            font-family: sans-serif;
+            font-size: 50px;
+        }
+        nav .logo{
+            color: rgb(179, 182, 25);
+            margin: 30px;
+            font-size: 30px;
+            font-style: italic;
+            font-family: cursive;
+        }
+        .desc{
+            display: flex;
+            gap: 15px;
+            padding: 20px;
+        }
+        .desc h1{
+            text-align: center;
+            justify-content: center;
+        }
+        button{
+            padding: 15px 40px;
+            font-size: 15px;
+            background-color: coral;
+            color: antiquewhite;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Start bootstrap</div>
+        <ul>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">LOCATIONS</a></li>
+            <li><a href="">TEAM</a></li>
+            <li><a href="">ABOUT</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div hero text>
+        <h4>Welcome To Our Website</h4>
+        <h1 class="first">THANK YOU FOR CHOOSING US</h1>
+        <button><p>ABOUT US</p></button>
+        </div>
+    </section>
+    <section class="desc">
+        <h1>SERVICES</h1>
+        <div class="services-grid">
+
+            <div class="service card">
+                <i class="fas fa-jeep"></i>
+                <h3>Offroad Comfort</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus soluta magnam laudantium accusamus odio vel fugiat id tenetur ut?</p>
+            </div>
+            <div class="service card">
+                <i class fas fa></i>
+                <h3>Serene Ambience</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo facilis perferendis voluptate distinctio asperiores, accusamus pariatur voluptatem iure sunt sint.</p>
+            </div>
+            <div>
+                <i></i>
+                <h3>Comfort</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia provident aut aperiam optio voluptatibus. Dignissimos?</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
